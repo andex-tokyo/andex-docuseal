@@ -13,5 +13,13 @@
       "versioningTemplate": "semver"
     }
   ],
-  "assignees": ["andex-tokyo"]
+  "assignees": ["andex-tokyo"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["docusealco/docuseal"],
+      "matchDatasources": ["github-releases"],
+      "stabilityDays": 1
+    }
+  ],
+  "prCreation": "not-pending"
 }
