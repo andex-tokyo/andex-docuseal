@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:recommended"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["kubernetes/docuseal-deployment.yaml"],
+      "matchStrings": [
+        "image: docuseal/docuseal:(?<currentValue>.*)"
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "docusealco/docuseal",
+      "versioningTemplate": "semver"
+    }
+  ],
+  "assignees": ["andex-tokyo"]
+}
