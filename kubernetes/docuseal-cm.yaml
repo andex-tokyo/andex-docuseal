@@ -6,3 +6,4 @@ data:
   DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/docuseal"
   RAILS_LOG_TO_STDOUT: "true"
   RAILS_LOG_LEVEL: "debug"
+  RAILS_ENV: "development"
