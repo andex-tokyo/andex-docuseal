@@ -15,9 +15,10 @@ kind: Service
 metadata:
   name: docuseal
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: docuseal
   ports:
-    - port: 9128
+    - port: 3000
       targetPort: 3000
+      nodePort: 32535
