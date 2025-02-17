@@ -1,0 +1,6 @@
+resources:
+  - docuseal-cm.yaml
+  - docuseal-deployment.yaml
+  - docuseal-pvc.yaml
+  - docuseal-secret.yaml
+  - docuseal-svc.yaml
